@@ -1,4 +1,4 @@
-`import { MatTableExporterModule } from 'mat-table-exporter';`
+`import { MatTableExporterModule } from 'mini-mat-table-exporter';`
 
 &nbsp;
 

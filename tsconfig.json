@@ -21,17 +21,17 @@
       "dom"
     ],
     "paths": {
-      "cdk-table-exporter": [
-        "dist/cdk-table-exporter"
+      "mini-cdk-table-exporter": [
+        "dist/mini-cdk-table-exporter"
       ],
-      "cdk-table-exporter/*": [
-        "dist/cdk-table-exporter/*"
+      "mini-cdk-table-exporter/*": [
+        "dist/mini-cdk-table-exporter/*"
       ],
-      "mat-table-exporter": [
-        "dist/mat-table-exporter"
+      "mini-mat-table-exporter": [
+        "dist/mini-mat-table-exporter"
       ],
-      "mat-table-exporter/*": [
-        "dist/mat-table-exporter/*"
+      "mini-mat-table-exporter/*": [
+        "dist/mini-mat-table-exporter/*"
       ],
       "mat-table-filter": [
         "dist/mat-table-filter"

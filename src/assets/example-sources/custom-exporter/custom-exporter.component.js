@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
-import { Exporter, Options } from 'mat-table-exporter';
+import { Exporter, Options } from 'mini-mat-table-exporter';
 
 export class CustomExporter implements Exporter<Options> {
   export(rows: Array<any>, options?: Options) {

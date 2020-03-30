@@ -4,7 +4,7 @@
   "lib": {
     "entryFile": "src/public-api.ts",
     "umdModuleIds": {
-      "cdk-table-exporter": "cdk-table-exporter"
+      "mini-cdk-table-exporter": "mini-cdk-table-exporter"
     }
   },
   "whitelistedNonPeerDependencies": [

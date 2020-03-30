@@ -1,5 +1,5 @@
 {
-  "name": "cdk-table-exporter",
+  "name": "mini-cdk-table-exporter",
   "version": "9.0.0",
   "description": "Abstract CdkTable Exporter",
   "author": "Halit Talha Türe",
@@ -30,14 +30,14 @@
     "table",
     "excel"
   ],
-  "main": "bundles/cdk-table-exporter.umd.js",
-  "module": "fesm5/cdk-table-exporter.js",
-  "es2015": "fesm2015/cdk-table-exporter.js",
-  "esm5": "esm5/cdk-table-exporter.js",
-  "esm2015": "esm2015/cdk-table-exporter.js",
-  "fesm5": "fesm5/cdk-table-exporter.js",
-  "fesm2015": "fesm2015/cdk-table-exporter.js",
-  "typings": "cdk-table-exporter.d.ts",
-  "metadata": "cdk-table-exporter.metadata.json",
+  "main": "bundles/mini-cdk-table-exporter.umd.js",
+  "module": "fesm5/mini-cdk-table-exporter.js",
+  "es2015": "fesm2015/mini-cdk-table-exporter.js",
+  "esm5": "esm5/mini-cdk-table-exporter.js",
+  "esm2015": "esm2015/mini-cdk-table-exporter.js",
+  "fesm5": "fesm5/mini-cdk-table-exporter.js",
+  "fesm2015": "fesm2015/mini-cdk-table-exporter.js",
+  "typings": "mini-cdk-table-exporter.d.ts",
+  "metadata": "mini-cdk-table-exporter.metadata.json",
   "sideEffects": false
 }

@@ -19,7 +19,7 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatTableExporterModule } from 'mat-table-exporter';
+import { MatTableExporterModule } from 'mini-mat-table-exporter';
 import { ExporterComponent } from './components/exporter/exporter.component';
 import { FilterComponent } from './components/filter/filter.component';
 import { MarkdownModule, MarkedOptions } from 'ngx-markdown';
