@@ -1,4 +1,5 @@
-import * as XLSX from 'xlsx';
+// import * as XLSX from 'xlsx';
+import * as XLSX from 'xlsx/dist/xlsx.mini.min';
 import { Mime } from '../../mime';
 import { FileExporter } from './file-exporter';
 /**

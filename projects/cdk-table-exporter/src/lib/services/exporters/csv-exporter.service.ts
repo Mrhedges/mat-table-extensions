@@ -1,7 +1,8 @@
 import { MIME_CSV } from './../../constants';
 import { Options } from '../../options';
 import { Injectable } from '@angular/core';
-import * as XLSX from 'xlsx';
+// import * as XLSX from 'xlsx';
+import * as XLSX from 'xlsx/dist/xlsx.mini.min';
 import { WorksheetExporter } from './worksheet-exporter';
 import { Mime } from '../../mime';
 
