@@ -274,7 +274,7 @@ This software is provided by the copyright holders and contributors “as is” 
 mini-mat-table-exporter
 Apache-2.0
 
-mat-table-filter
+mini-mat-table-filter
 Apache-2.0
 
 ngx-markdown

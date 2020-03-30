@@ -1,5 +1,5 @@
 
-import { MatTableFilterModule } from 'mat-table-filter';
+import { MatTableFilterModule } from 'mini-mat-table-filter';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';

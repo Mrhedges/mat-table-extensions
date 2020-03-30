@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { MatTableModule } from '@angular/material/table';
-import { MatTableFilterDirective } from './mat-table-filter.directive';
+import { MatTableFilterDirective } from './mini-mat-table-filter.directive';
 
 @NgModule({
   declarations: [MatTableFilterDirective],

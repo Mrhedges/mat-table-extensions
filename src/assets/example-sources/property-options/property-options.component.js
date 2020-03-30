@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material';
-import { MatTableFilter, PropertyOptions } from 'mat-table-filter';
+import { MatTableFilter, PropertyOptions } from 'mini-mat-table-filter';
 
 export class Captain {
   name: string;

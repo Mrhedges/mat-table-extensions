@@ -1,4 +1,4 @@
-`import { MatTableFilterModule } from 'mat-table-filter';`
+`import { MatTableFilterModule } from 'mini-mat-table-filter';`
 
 &nbsp;
 
@@ -49,9 +49,9 @@ export enum MatTableFilter {
 This project is a library project inside mat-table-extensions angular workspace. If you are interested in the source code of this particular library you can get ready and build the project by applying the steps below:
 
 1. Do ```npm install``` in ```mat-table-extensions``` directory
-2. Do ```npm install``` in ```mat-table-extensions\projects\mat-table-filter``` directory
+2. Do ```npm install``` in ```mat-table-extensions\projects\mini-mat-table-filter``` directory
 3. Go to ```mat-table-extensions``` directory
 4. Build it:
 ```
-ng build mat-table-filter
+ng build mini-mat-table-filter
 ```

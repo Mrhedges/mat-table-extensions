@@ -210,38 +210,38 @@
         }
       }
     },
-    "mat-table-filter": {
+    "mini-mat-table-filter": {
       "projectType": "library",
-      "root": "projects/mat-table-filter",
-      "sourceRoot": "projects/mat-table-filter/src",
+      "root": "projects/mini-mat-table-filter",
+      "sourceRoot": "projects/mini-mat-table-filter/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-ng-packagr:build",
           "options": {
-            "tsConfig": "projects/mat-table-filter/tsconfig.lib.json",
-            "project": "projects/mat-table-filter/ng-package.json"
+            "tsConfig": "projects/mini-mat-table-filter/tsconfig.lib.json",
+            "project": "projects/mini-mat-table-filter/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/mat-table-filter/tsconfig.lib.prod.json"
+              "tsConfig": "projects/mini-mat-table-filter/tsconfig.lib.prod.json"
             }
           }
         },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/mat-table-filter/src/test.ts",
-            "tsConfig": "projects/mat-table-filter/tsconfig.spec.json",
-            "karmaConfig": "projects/mat-table-filter/karma.conf.js"
+            "main": "projects/mini-mat-table-filter/src/test.ts",
+            "tsConfig": "projects/mini-mat-table-filter/tsconfig.spec.json",
+            "karmaConfig": "projects/mini-mat-table-filter/karma.conf.js"
           }
         },
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/mat-table-filter/tsconfig.lib.json",
-              "projects/mat-table-filter/tsconfig.spec.json"
+              "projects/mini-mat-table-filter/tsconfig.lib.json",
+              "projects/mini-mat-table-filter/tsconfig.spec.json"
             ],
             "exclude": [
               "**/node_modules/**"

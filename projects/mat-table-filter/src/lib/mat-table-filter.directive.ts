@@ -3,8 +3,8 @@ import { Directive, DoCheck, Input, ViewContainerRef, Host, Self, Optional } fro
 import { MatTable, MatTableDataSource } from '@angular/material/table';
 import { BehaviorSubject } from 'rxjs';
 import { debounceTime } from 'rxjs/operators';
-import { MatTableFilter } from './mat-table-filter.enum';
-import { MatTableFilterService } from './services/mat-table-filter.service';
+import { MatTableFilter } from './mini-mat-table-filter.enum';
+import { MatTableFilterService } from './services/mini-mat-table-filter.service';
 
 @Directive({
   selector: '[matTableFilter]',

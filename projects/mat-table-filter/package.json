@@ -1,10 +1,10 @@
 {
-  "name": "mat-table-filter",
+  "name": "mini-mat-table-filter",
   "license": "Apache-2.0",
   "author": "Halit Talha Türe",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HalitTalha/mat-table-extensions/tree/master/projects/mat-table-filter"
+    "url": "https://github.com/HalitTalha/mat-table-extensions/tree/master/projects/mini-mat-table-filter"
   },
   "version": "9.0.0",
   "description": "Provides filtering support for @angular/material tables",

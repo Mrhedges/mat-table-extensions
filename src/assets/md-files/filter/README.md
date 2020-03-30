@@ -1,6 +1,6 @@
 # Material Table Filter (matTableFilter Directive)
 
-[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")  [![Node version](https://img.shields.io/npm/v/mat-table-filter.svg?style=flat)](https://www.npmjs.com/package/mat-table-filter)  ![Total Downloads](https://img.shields.io/npm/dm/mat-table-filter.svg)
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")  [![Node version](https://img.shields.io/npm/v/mini-mat-table-filter.svg?style=flat)](https://www.npmjs.com/package/mini-mat-table-filter)  ![Total Downloads](https://img.shields.io/npm/dm/mini-mat-table-filter.svg)
 
 Provides filtering support for @angular/material tables. Table filtering is done by using the directive matTableFilter. This project is inspired by Hibernate's example api.
 By employing this directive you will end up with having
@@ -11,13 +11,13 @@ By employing this directive you will end up with having
 ## Installation
 
 ```
-npm install --save mat-table-filter
+npm install --save mini-mat-table-filter
 ```
 NOTE: For the previous major versions of Angular install version 1.2.5 
 ```
-npm install --save mat-table-filter@1.2.5
+npm install --save mini-mat-table-filter@1.2.5
 ```
-After installing mat-table-filter import MatTableFilterModule in your ngModule
+After installing mini-mat-table-filter import MatTableFilterModule in your ngModule
 
 ## Usage
 

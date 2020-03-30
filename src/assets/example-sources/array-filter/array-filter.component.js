@@ -1,4 +1,4 @@
-import { MatTableFilter } from 'mat-table-filter';
+import { MatTableFilter } from 'mini-mat-table-filter';
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource, MatChipInputEvent } from '@angular/material';
 import { COMMA, ENTER } from '@angular/cdk/keycodes';

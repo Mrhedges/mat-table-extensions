@@ -1,4 +1,4 @@
-import { MatTableFilter } from '../mat-table-filter.enum';
+import { MatTableFilter } from '../mini-mat-table-filter.enum';
 import { ItemPair } from '../item-pair';
 import { isString } from 'lodash-es';
 import { Options } from '../options';

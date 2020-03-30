@@ -33,11 +33,11 @@
       "mini-mat-table-exporter/*": [
         "dist/mini-mat-table-exporter/*"
       ],
-      "mat-table-filter": [
-        "dist/mat-table-filter"
+      "mini-mat-table-filter": [
+        "dist/mini-mat-table-filter"
       ],
-      "mat-table-filter/*": [
-        "dist/mat-table-filter/*"
+      "mini-mat-table-filter/*": [
+        "dist/mini-mat-table-filter/*"
       ],
       "example-components": [
         "dist/example-components"

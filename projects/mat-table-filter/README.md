@@ -1,6 +1,6 @@
 # Material Table Filter (matTableFilter Directive)
 
-[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")  [![Node version](https://img.shields.io/npm/v/mat-table-filter.svg?style=flat)](https://www.npmjs.com/package/mat-table-filter)  ![Total Downloads](https://img.shields.io/npm/dm/mat-table-filter.svg)
+[![JavaScript Style Guide: Good Parts](https://img.shields.io/badge/code%20style-goodparts-brightgreen.svg?style=flat)](https://github.com/dwyl/goodparts "JavaScript The Good Parts")  [![Node version](https://img.shields.io/npm/v/mini-mat-table-filter.svg?style=flat)](https://www.npmjs.com/package/mini-mat-table-filter)  ![Total Downloads](https://img.shields.io/npm/dm/mini-mat-table-filter.svg)
 
 Provides filtering support for @angular/material tables. Table filtering is done by using the directive matTableFilter. This project is inspired by Hibernate's example api.
 By employing this directive you will end up with having
@@ -11,16 +11,16 @@ By employing this directive you will end up with having
 ## Installation
 
 ```
-npm install --save mat-table-filter
+npm install --save mini-mat-table-filter
 ```
 NOTE: For the previous major versions of Angular install version 1.2.5
 ```
-npm install --save mat-table-filter@1.2.5
+npm install --save mini-mat-table-filter@1.2.5
 ```
 
-After installing mat-table-filter import MatTableFilterModule in your ngModule
+After installing mini-mat-table-filter import MatTableFilterModule in your ngModule
 ```
-import { MatTableFilterModule } from 'mat-table-filter';
+import { MatTableFilterModule } from 'mini-mat-table-filter';
 ```
 
 ## Usage
@@ -44,7 +44,7 @@ That's all. When you populate the exampleObject's properties, the filter will au
 You can change the debounce time also.
 
 &nbsp;
-### Stackblitz demo [mat-table-filter-example](https://stackblitz.com/github/HalitTalha/mat-table-filter-example)
+### Stackblitz demo [mini-mat-table-filter-example](https://stackblitz.com/github/HalitTalha/mini-mat-table-filter-example)
 &nbsp;
 ##API
 
@@ -95,11 +95,11 @@ export enum MatTableFilter {
 This project is a library project inside mat-table-extensions angular workspace. If you are interested in the source code of this particular library you can get ready and build the project by applying the steps below:
 
 1. Do ```npm install``` in ```mat-table-extensions``` directory
-2. Do ```npm install``` in ```mat-table-extensions\projects\mat-table-filter``` directory
+2. Do ```npm install``` in ```mat-table-extensions\projects\mini-mat-table-filter``` directory
 3. Go to ```mat-table-extensions``` directory
 4. Build it:
 ```
-ng build mat-table-filter
+ng build mini-mat-table-filter
 ```
 
 
