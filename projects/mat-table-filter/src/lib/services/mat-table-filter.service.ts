@@ -3,7 +3,7 @@ import { ItemPair } from './../item-pair';
 import { ArrayPredicateService } from './array-predicate.service';
 import { AlphaNumericPredicateService } from './alpha-numeric-predicate.service';
 import { Injectable } from '@angular/core';
-import * as LODASH from 'lodash';
+import { cloneDeep, isNil, every, isArray, isBoolean, isEmpty, isEqual, isString, isNumber } from 'lodash-es';
 import { Options } from '../options';
 import { isFunction } from 'util';
 
@@ -18,14 +18,14 @@ export class MatTableFilterService {
     // tslint:disable-next-line:forin
     const exampleKeys = Object.keys(itemPair.example);
     for (const key of exampleKeys) {
-      const exampleValue = LODASH.cloneDeep(itemPair.example[key]);
-      if (LODASH.isNil(exampleValue) || LODASH.every(exampleValue, LODASH.isEmpty) && typeof exampleValue !== 'boolean') {
+      const exampleValue = cloneDeep(itemPair.example[key]);
+      if (isNil(exampleValue) || every(exampleValue, isEmpty) && typeof exampleValue !== 'boolean') {
         // if example entity's property is undefined/null/empty then it means the caller wants all the data
         continue;
       }
       if (itemPair.item.hasOwnProperty(key)) {
         // if example entity has additional columns then search fails
-        const itemValue = LODASH.cloneDeep(itemPair.item[key]);
+        const itemValue = cloneDeep(itemPair.item[key]);
         const nextPropertyName = this.getNextPropertyName(propertyName, key);
         const options = this.finalizeOptionsForProperty(commonOptions, propertyOptions, nextPropertyName);
         if (isFunction(options)) { // if user defined predicate is present for property
@@ -40,12 +40,12 @@ export class MatTableFilterService {
             if (!this._alphaNumericService.executeCondition(valuePair, columnOptions)) {
               return false;
             }
-          } else if (LODASH.isArray(itemValue)) {
+          } else if (isArray(itemValue)) {
             const valuePair: ItemPair<any[]> = {item: itemValue, example: exampleValue};
             if (!this._arrayService.executeCondition(valuePair, columnOptions)) {
               return false;
             }
-          } else if (LODASH.isBoolean(itemValue)) {
+          } else if (isBoolean(itemValue)) {
             if (itemValue !== exampleValue) {
               return false;
             }
@@ -79,7 +79,7 @@ export class MatTableFilterService {
   }
 
   public isChanged(oldEntity: any, newEntity: any): boolean {
-    return !LODASH.isEqual(this.toPlainJson(oldEntity), this.toPlainJson(newEntity));
+    return !isEqual(this.toPlainJson(oldEntity), this.toPlainJson(newEntity));
   }
 
   public toPlainJson(object: any): JSON {
@@ -91,6 +91,6 @@ export class MatTableFilterService {
   }
 
   private isAlphaNumeric(value: any): boolean {
-    return LODASH.isString(value) || LODASH.isNumber(value);
+    return isString(value) || isNumber(value);
   }
 }

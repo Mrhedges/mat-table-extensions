@@ -33,6 +33,7 @@
     "file-saver": "^2.0.2",
     "gulp": "^4.0.2",
     "gulp-gh-pages": "^0.5.4",
+    "lodash-es": "^4.17.15",
     "marked": "^0.8.0",
     "ngx-markdown": "^9.0.0-beta.0",
     "node-sass": "^4.13.1",
