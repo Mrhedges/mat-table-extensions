@@ -1,5 +1,5 @@
 import { PropertyOptions, PredicateFunc } from '../property-options';
-import { ItemPair } from './../item-pair';
+import { ItemPair } from '../item-pair';
 import { ArrayPredicateService } from './array-predicate.service';
 import { AlphaNumericPredicateService } from './alpha-numeric-predicate.service';
 import { Injectable } from '@angular/core';
