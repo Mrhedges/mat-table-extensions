@@ -1,9 +1,0 @@
-var Mime = /** @class */ (function () {
-    function Mime(extension, contentTypeHeader) {
-        this.extension = extension;
-        this.contentTypeHeader = contentTypeHeader;
-    }
-    return Mime;
-}());
-export { Mime };
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibWltZS5qcyIsInNvdXJjZVJvb3QiOiJuZzovL21pbmktY2RrLXRhYmxlLWV4cG9ydGVyLyIsInNvdXJjZXMiOlsibGliL21pbWUudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFLRSxjQUFZLFNBQWlCLEVBQUUsaUJBQXlCO1FBQ3RELElBQUksQ0FBQyxTQUFTLEdBQUcsU0FBUyxDQUFDO1FBQzNCLElBQUksQ0FBQyxpQkFBaUIsR0FBRyxpQkFBaUIsQ0FBQztJQUM3QyxDQUFDO0lBRUgsV0FBQztBQUFELENBQUMsQUFWRCxJQVVDIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIE1pbWUge1xuXG4gIGV4dGVuc2lvbjogc3RyaW5nO1xuICBjb250ZW50VHlwZUhlYWRlcjogc3RyaW5nO1xuXG4gIGNvbnN0cnVjdG9yKGV4dGVuc2lvbjogc3RyaW5nLCBjb250ZW50VHlwZUhlYWRlcjogc3RyaW5nKSB7XG4gICAgdGhpcy5leHRlbnNpb24gPSBleHRlbnNpb247XG4gICAgdGhpcy5jb250ZW50VHlwZUhlYWRlciA9IGNvbnRlbnRUeXBlSGVhZGVyO1xuICB9XG5cbn1cbiJdfQ==

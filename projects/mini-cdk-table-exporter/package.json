@@ -1,5 +1,5 @@
 {
-  "name": "mini-mini-cdk-table-exporter",
+  "name": "mini-cdk-table-exporter",
   "version": "9.0.0",
   "description": "Abstract CdkTable Exporter",
   "author": "Halit Talha Türe",
@@ -16,7 +16,7 @@
   },
   "dependencies": {
     "file-saver": "^2.0.2",
-    "xlsx": "^0.14.1"
+    "xlsx": "^0.15.6"
   },
   "scripts": {
     "lint": "node_modules/.bin/goodparts lib"

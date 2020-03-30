@@ -1,5 +1,5 @@
 {
-  "name": "mini-mini-mat-table-exporter",
+  "name": "mini-mat-table-exporter",
   "version": "9.0.0",
   "license": "Apache-2.0",
   "description": "Provides exporting support for @angular/material tables",
@@ -34,6 +34,6 @@
     "excel"
   ],
   "dependencies": {
-    "mini-mini-cdk-table-exporter": "^9.0.0"
+    "mini-cdk-table-exporter": "^9.0.0"
   }
 }
