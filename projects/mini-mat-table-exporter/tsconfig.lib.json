@@ -5,9 +5,7 @@
     "target": "es2015",
     "declaration": true,
     "inlineSources": true,
-    "types": [
-      "mini-cdk-table-exporter"
-    ],
+    "types": [],
     "lib": [
       "dom",
       "es2018"
